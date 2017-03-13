@@ -1,0 +1,89 @@
+	<!Doctype html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Project submission Portal</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+		  <div class="container-fluid">
+		    <div class="row">
+		      <div class="col-lg-4 col-md-3 col-sm-3 row">
+		        <div class="logo">
+		          <a href="index.php">Project Submission</a>
+		        </div>
+		      </div>
+		      <div class="col-lg-4 col-lg-offset-4 col-sm-6 col-lg-offset-3 col-md-7">
+		        <nav>
+		          <ul>
+		                <li><a class="btn-lg" href="student_login.html">LOGIN</a></li>
+		          </ul>
+		        </nav>
+		      </div>
+
+		    </div>
+		  </div>
+		</header>
+		<section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-8 col-sm-push-2">
+            <div class="form-wrapper">
+              <div class="form-title">
+                <h2>Sign In</h2>
+                <p>Admin.</p>
+              </div>
+
+              <form id="form1" name="form1" method="post" action="">
+                  <div class="form-area">
+                           
+                         <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="email" name="email" class="form-control" placeholder="Email" type="text">         
+                        </div>      
+                        <div class="form-group input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                          <input id="password" name="password" class="form-control" placeholder="Enter Password" type="password">    
+                        </div>
+                  
+                        <div class="form-group pull-in clearfix">
+                          <div class="col-sm-6 pull-right">
+                            <button class="button button-submit pull-right">Sign In</button>
+                          </div>
+            
+                        </div>
+                     
+                  </div>
+
+              </form>
+
+              <!-- <div class="form-footer">
+                Are you a Student? <a href="student_login.php">Log In Here.</a>
+              </div> -->
+              	<div class="form-footer-group">
+              		<div class="col-xs-4 form-footer">
+	                  <a class="active-link" href="admin_login.html">Admin</a>
+	              	</div>
+	              	<div class="col-xs-4 form-footer">
+	                  <a href="student_login.html">Students</a>
+	              	</div>
+	              	<div class="col-xs-4 form-footer">
+	                  <a href="examiner_login.html">Examiners</a>
+	              	</div>
+              	</div>
+	              	
+              	</div>
+              </div>
+        </div>
+      </div>
+    </section>
+	<script src="static/js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
